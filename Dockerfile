@@ -1,3 +1,3 @@
 FROM busybox
 
-CMD ["tail -f /dev/null"]
+CMD ["tail", "-f", "/dev/null"]
